@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inintial-scale=1.0">
+	<title>Login</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<style type="text/css">
+body{
+		margin: 0px;
+		padding: 0px;
+	}
+	.background{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("bg.png"); 
+		background-size: cover;
+		background-position: all;
+		background-repeat: no-repeat;
+	}
+	.content{
+		position: absolute;
+		color: white;
+		margin-left: 10vh;
+		padding-top: 10vh;
+		font-size: 2rem;
+		background-color: rgba(0, 0, 0, 0.7);
+		width: 350px;
+		height: 300px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.content img{
+		padding-left: 130px;
+		padding-top: 50px;
+
+	}
+	.content b{
+		position: absolute;
+		font-size: xx-large;
+		padding-left: 18px;
+		padding-top: 30px;
+	}
+	.content em{
+		position: absolute;
+		font-size: x-large;
+		padding-left: 150px;
+		padding-top: 40px;
+
+	}
+	.background::before{
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.45);
+	}
+	.now{
+		text-align: right;
+		height: 200px;
+	}
+	.now ul{
+		display: inline-flex;
+		list-style: none;
+		text-indent: 20px;
+		padding-right: 100px;
+		font-size: x-large;
+		color: white;
+	}
+	.now a{
+		position: relative;
+		text-decoration: none;
+		color: white;
+	}
+	.now a:hover{
+		position: relative;
+		text-decoration: none;
+		color: white;
+		border-right-style: groove;
+		border-left-style: groove;
+		padding-right: 10px 10px;
+	}
+	.now a:active{
+		width: 100%;
+		border-radius: 10px;
+		padding-right: 50px;
+		margin: 15px;
+		color: white;
+		background-color: rgba(9, 7, 0, 1);
+		text-decoration: none;
+
+	}
+	.lead form{
+		position: relative;
+		padding-top: 5px;
+		margin-right: 70px;
+		float: right;
+		background-color: rgba(0, 0, 0, 0.7);
+		width: 350px;
+		height: 400px;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.lead legend{
+		margin-top: 50px;
+		line-height: 40px;
+		width: 200px;
+		letter-spacing: 12px;
+		text-indent: 18px;
+		background-color: black;
+		color: white;
+		border-radius: 7px 7px 7px 7px;
+		margin-bottom: 50px;
+	}
+	.lead input{
+		padding-top: 10px;
+		color: rgba(106, 63, 0, 1);
+		font-size: medium;
+		font-weight: bold;
+		line-height: 23px;
+		border-radius: 7px 7px 7px 7px;
+	}
+	.lead button{
+		background-color: black;
+		color: white;
+		width: 100px;
+		height: 30px;
+		border-radius: 10px 10px 10px 10px;
+		font-weight: bold;
+	}
+	.lead a{
+		text-decoration: none;
+		color: white;
+	}
+</style>
+<body class="background">
+	<div class="now">
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="trending.html">Trending</a></li>
+			<li><a href="Reels.html">Reels</a></li>
+		</ul>
+	</div>
+<div style=" position: relative; border: 1px solid gold; width: 45px; height: 47px; float: right; margin-right: 30px; margin-top: -187px; border-radius: 35px;">
+			<a href="profile.html">
+			<img src="pfp.png" style=" width: 100%; height: 100%x;">
+		</a>
+	</div>	
+	<div class="content">
+		<img src="untitled.png"><br>
+		<b>PRINTOUSE MEDIA</b><br>
+		<em>Serving you right...</em>
+	</div>
+	<div class="lead">
+		<form style="text-align: center; border: none;">
+			<fieldset>
+				<legend>WELCOME</legend>	
+					<input type="email" name="Email" placeholder="Email"><br><br>
+					<input type="password" name="Password" placeholder="Password"><br><br><br>
+					<button> <a href="home.html"> Sign In</a></button>
+						<h2 style="color: white;">or</h2>
+						<button style="width: 200px;"><a href="home.html">Continue with Google</a></button>
+					<br><br>
+			</fieldset>
+		</form>
+	</div>
+	<div class="footer">
+</div>
+</body>
+</html>
