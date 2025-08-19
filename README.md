@@ -34,7 +34,6 @@ body{
 	.content img{
 		padding-left: 130px;
 		padding-top: 50px;
-
 	}
 	.content b{
 		position: absolute;
@@ -47,7 +46,6 @@ body{
 		font-size: x-large;
 		padding-left: 150px;
 		padding-top: 40px;
-
 	}
 	.background::before{
 		content: "";
@@ -92,7 +90,6 @@ body{
 		color: white;
 		background-color: rgba(9, 7, 0, 1);
 		text-decoration: none;
-
 	}
 	.lead form{
 		position: relative;
@@ -101,7 +98,7 @@ body{
 		float: right;
 		background-color: rgba(0, 0, 0, 0.7);
 		width: 350px;
-		height: 400px;
+		height: 370px;
 		border-radius: 10px 10px 0px 0px;
 	}
 	.lead legend{
@@ -130,6 +127,7 @@ body{
 		height: 30px;
 		border-radius: 10px 10px 10px 10px;
 		font-weight: bold;
+		font-size: 20px;
 	}
 	.lead a{
 		text-decoration: none;
