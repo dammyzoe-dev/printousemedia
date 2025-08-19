@@ -137,9 +137,9 @@ body{
 <body class="background">
 	<div class="now">
 		<ul>
-			<li><a href="Home.html">Home</a></li>
+			<li><a href="home.html">Home</a></li>
 			<li><a href="trending.html">Trending</a></li>
-			<li><a href="Reels.html">Reels</a></li>
+			<li><a href="reels.html">Reels</a></li>
 		</ul>
 	</div>
 <div style=" position: relative; border: 1px solid gold; width: 45px; height: 47px; float: right; margin-right: 30px; margin-top: -187px; border-radius: 35px;">
@@ -158,7 +158,7 @@ body{
 				<legend>WELCOME</legend>	
 					<input type="email" name="Email" placeholder="Email"><br><br>
 					<input type="password" name="Password" placeholder="Password"><br><br><br>
-					<button> <a href="home.html"> Sign In</a></button>
+					<button> <a href="home.html">Sign In</a></button>
 						<h2 style="color: white;">or</h2>
 						<button style="width: 200px;"><a href="home.html">Continue with Google</a></button>
 					<br><br>
